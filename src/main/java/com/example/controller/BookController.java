@@ -12,11 +12,6 @@ import java.io.IOException;
 @RestController
 @RequestMapping("/books")
 public class BookController {
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 835a6c3 (第三版)
     @Autowired
     private BookService bookService;
     @PostMapping
